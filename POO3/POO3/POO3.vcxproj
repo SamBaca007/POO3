@@ -23,6 +23,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Prerequisites.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\Abstraccion.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\AbstraccionRefinada.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\ControlRadio.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\ControlRemoto.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\ControlTV.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\Dispositivo.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\Implementacion.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\ImplementacionConcretaA.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\ImplementacionConcretaB.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\Radio.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Bridge\TV.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
