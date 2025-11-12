@@ -34,6 +34,10 @@
     <ClInclude Include="include\ProgrammingPatterns\Bridge\ImplementacionConcretaB.h" />
     <ClInclude Include="include\ProgrammingPatterns\Bridge\Radio.h" />
     <ClInclude Include="include\ProgrammingPatterns\Bridge\TV.h" />
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\Manejador.h" />
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorConcretoA.h" />
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorConcretoB.h" />
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorConcretoC.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

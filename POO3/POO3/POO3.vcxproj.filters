@@ -19,6 +19,9 @@
     <Filter Include="Archivos de encabezado\ProgrammingPatterns\Bridge">
       <UniqueIdentifier>{fd759e04-96a9-4d30-bba5-832d62c19f3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility">
+      <UniqueIdentifier>{7bc6238a-22d3-4adf-ade2-39e9982d0095}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -61,6 +64,18 @@
     </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\Bridge\ControlRadio.h">
       <Filter>Archivos de encabezado\ProgrammingPatterns\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\Manejador.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorConcretoA.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorConcretoB.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorConcretoC.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

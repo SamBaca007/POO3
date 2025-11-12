@@ -1,15 +1,11 @@
 #include "Prerequisites.h"
-#include "ProgrammingPatterns/Bridge/ImplementacionConcretaA.h"
-#include "ProgrammingPatterns/Bridge/ImplementacionConcretaB.h"
-#include "ProgrammingPatterns/Bridge/AbstraccionRefinada.h"
-#include "ProgrammingPatterns/Bridge/TV.h"
-#include "ProgrammingPatterns/Bridge/Radio.h"
-#include "ProgrammingPatterns/Bridge/ControlTV.h"
-#include "ProgrammingPatterns/Bridge/ControlRadio.h"
+#include "ProgrammingPatterns/ChainOfResponsibility/ManejadorConcretoA.h"
+#include "ProgrammingPatterns/ChainOfResponsibility/ManejadorConcretoB.h"
+#include "ProgrammingPatterns/ChainOfResponsibility/ManejadorConcretoC.h"
 
 int
 main() {
-  ImplementacionConcretaA impA;
+  /*ImplementacionConcretaA impA;
   ImplementacionConcretaB impB;
 
   AbstraccionRefinada abstraccionA(&impA);
@@ -29,7 +25,16 @@ main() {
   controlTV.apagar();
 
   controlRadio.encender();
-  controlRadio.apagar();
+  controlRadio.apagar();*/
+
+  ManejadorConcretoC manejadorC(nullptr, "None");
+  ManejadorConcretoB manejadorB(&manejadorC, "Manejador C");
+  ManejadorConcretoA manejadorA(&manejadorB, "Manejador B");
+
+  int peticiones[] = { 5, 9, 15, 25, 35 };
+  for (int peticion : peticiones) {
+    manejadorA.manejarPeticion(peticion);
+  }
 
   return 0;
 }
