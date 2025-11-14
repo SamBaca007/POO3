@@ -2,6 +2,9 @@
 #include "ProgrammingPatterns/ChainOfResponsibility/ManejadorConcretoA.h"
 #include "ProgrammingPatterns/ChainOfResponsibility/ManejadorConcretoB.h"
 #include "ProgrammingPatterns/ChainOfResponsibility/ManejadorConcretoC.h"
+#include "ProgrammingPatterns/ChainOfResponsibility/ManejadorDirectivo.h"
+#include "ProgrammingPatterns/ChainOfResponsibility/ManejadorGerente.h"
+#include "ProgrammingPatterns/ChainOfResponsibility/ManejadorDirectorGeneral.h"
 
 int
 main() {
@@ -35,6 +38,14 @@ main() {
   for (int peticion : peticiones) {
     manejadorA.manejarPeticion(peticion);
   }
+
+  ManejadorDirectorGeneral directorGeneral(nullptr, "Samuel");
+  ManejadorGerente gerente(&directorGeneral, "Roger");
+  ManejadorDirectivo directivo(&gerente, "Churro");
+
+  directivo.getMonto(800);
+  directivo.getMonto(3500);
+  directivo.getMonto(10000);
 
   return 0;
 }
