@@ -22,6 +22,9 @@
     <Filter Include="Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility">
       <UniqueIdentifier>{7bc6238a-22d3-4adf-ade2-39e9982d0095}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatterns\SingletonMultiThread">
+      <UniqueIdentifier>{08612639-3657-4fc5-8f03-96b5207a149b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -88,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorDirectorGeneral.h">
       <Filter>Archivos de encabezado\ProgrammingPatterns\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\SingletonMultiThread\SingletonMultiThread.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\SingletonMultiThread</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

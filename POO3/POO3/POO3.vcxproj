@@ -42,6 +42,7 @@
     <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorDirectorGeneral.h" />
     <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\ManejadorGerente.h" />
     <ClInclude Include="include\ProgrammingPatterns\ChainOfResponsibility\Solicitud.h" />
+    <ClInclude Include="include\ProgrammingPatterns\SingletonMultiThread\SingletonMultiThread.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
