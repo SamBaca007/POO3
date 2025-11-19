@@ -25,6 +25,15 @@
     <Filter Include="Archivos de encabezado\ProgrammingPatterns\SingletonMultiThread">
       <UniqueIdentifier>{08612639-3657-4fc5-8f03-96b5207a149b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatterns\Command">
+      <UniqueIdentifier>{2c4314f8-a995-43d8-bda8-a92d649000ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatterns\Command\ComandosConcretos">
+      <UniqueIdentifier>{d0aa4222-7926-4124-95ab-c4d80de898b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatterns\Command\Invoker">
+      <UniqueIdentifier>{15281052-7a17-42d7-a1b2-cafba753326f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -94,6 +103,30 @@
     </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\SingletonMultiThread\SingletonMultiThread.h">
       <Filter>Archivos de encabezado\ProgrammingPatterns\SingletonMultiThread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\Comando.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\Luz.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\ComandosConcretos\ComandoEncender.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command\ComandosConcretos</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\ComandosConcretos\ComandoApagar.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command\ComandosConcretos</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\Invoker\ControlRemoto.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\Invoker\Suma.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command\ComandosConcretos</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\Operacion.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Command\Invoker\Calculadora.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Command\Invoker</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
