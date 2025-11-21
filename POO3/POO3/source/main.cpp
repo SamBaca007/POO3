@@ -1,21 +1,30 @@
 #include "Prerequisites.h"
-#include "ProgrammingPatterns/Command/ComandosConcretos/ComandoEncender.h"
-#include "ProgrammingPatterns/Command/ComandosConcretos/ComandoApagar.h"
-#include "ProgrammingPatterns/Command/Invoker/ControlRemoto.h"
-#include "ProgrammingPatterns/Command/Luz.h"
+#include "GameProgrammingPatterns/State/Player.h"
+#include "GameProgrammingPatterns/State/NormalState.h"
+#include "GameProgrammingPatterns/State/HurtState.h"
+#include "GameProgrammingPatterns/State/RageState.h"
 
 int
 main() {
-  Luz luz;
-  ComandoEncender comandoEncender(luz);
-  ComandoApagar comandoApagar(luz);
-
-  ControlRemoto controlRemoto;
-  controlRemoto.EjecutarComando(&comandoEncender); // Luz encendida
-  controlRemoto.EjecutarComando(&comandoApagar);  // Luz apagada
-  controlRemoto.DeshacerUltimoComando();         // Luz encendida
-
-
-
+  Player* player = new Player();
+  player->Attack();
+  player->Defend();
+  player->Move();
+  std::cout << "Player gets hurt!" << std::endl;
+  player->setState(new HurtState());
+  player->Attack();
+  player->Defend();
+  player->Move();
+  std::cout << "Player gets enraged!" << std::endl;
+  player->setState(new RageState());
+  player->Attack();
+  player->Defend();
+  player->Move();
+  std::cout << "Player calms down to normal state." << std::endl;
+  player->setState(new NormalState());
+  player->Attack();
+  player->Defend();
+  player->Move();
+  delete player;
   return 0;
 }

@@ -34,6 +34,12 @@
     <Filter Include="Archivos de encabezado\ProgrammingPatterns\Command\Invoker">
       <UniqueIdentifier>{15281052-7a17-42d7-a1b2-cafba753326f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatterns\Flyweight">
+      <UniqueIdentifier>{b9237c01-6ce7-41b3-ba1f-5205331128de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameProgrammingPatterns">
+      <UniqueIdentifier>{994f6520-e13f-472f-8b8d-bc4fedcbe347}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -127,6 +133,30 @@
     </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\Command\Invoker\Calculadora.h">
       <Filter>Archivos de encabezado\ProgrammingPatterns\Command\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Flyweight\Flyweight.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Flyweight\ConcreteFlyweight.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Flyweight\FlyweightFactory.h">
+      <Filter>Archivos de encabezado\ProgrammingPatterns\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\PlayerState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\NormalState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\HurtState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\RageState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\Player.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

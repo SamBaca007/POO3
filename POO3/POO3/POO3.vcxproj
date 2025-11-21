@@ -22,6 +22,11 @@
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\GameProgrammingPatterns\State\HurtState.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\NormalState.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\Player.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\PlayerState.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\RageState.h" />
     <ClInclude Include="include\Prerequisites.h" />
     <ClInclude Include="include\ProgrammingPatterns\Bridge\Abstraccion.h" />
     <ClInclude Include="include\ProgrammingPatterns\Bridge\AbstraccionRefinada.h" />
@@ -50,6 +55,9 @@
     <ClInclude Include="include\ProgrammingPatterns\Command\Invoker\Suma.h" />
     <ClInclude Include="include\ProgrammingPatterns\Command\Luz.h" />
     <ClInclude Include="include\ProgrammingPatterns\Command\Operacion.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Flyweight\ConcreteFlyweight.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Flyweight\Flyweight.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Flyweight\FlyweightFactory.h" />
     <ClInclude Include="include\ProgrammingPatterns\SingletonMultiThread\SingletonMultiThread.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
