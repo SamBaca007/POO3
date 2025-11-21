@@ -22,11 +22,16 @@
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\GameProgrammingPatterns\State\Car.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\CarState.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\ForwardState.h" />
     <ClInclude Include="include\GameProgrammingPatterns\State\HurtState.h" />
     <ClInclude Include="include\GameProgrammingPatterns\State\NormalState.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\ParkedState.h" />
     <ClInclude Include="include\GameProgrammingPatterns\State\Player.h" />
     <ClInclude Include="include\GameProgrammingPatterns\State\PlayerState.h" />
     <ClInclude Include="include\GameProgrammingPatterns\State\RageState.h" />
+    <ClInclude Include="include\GameProgrammingPatterns\State\ReverseState.h" />
     <ClInclude Include="include\Prerequisites.h" />
     <ClInclude Include="include\ProgrammingPatterns\Bridge\Abstraccion.h" />
     <ClInclude Include="include\ProgrammingPatterns\Bridge\AbstraccionRefinada.h" />

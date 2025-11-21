@@ -158,5 +158,20 @@
     <ClInclude Include="include\GameProgrammingPatterns\State\Player.h">
       <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
     </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\CarState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\ParkedState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\ForwardState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\ReverseState.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\State\Car.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

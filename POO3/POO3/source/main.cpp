@@ -3,7 +3,10 @@
 #include "GameProgrammingPatterns/State/NormalState.h"
 #include "GameProgrammingPatterns/State/HurtState.h"
 #include "GameProgrammingPatterns/State/RageState.h"
-
+#include "GameProgrammingPatterns/State/Car.h"
+#include "GameProgrammingPatterns/State/ParkedState.h"
+#include "GameProgrammingPatterns/State/ForwardState.h"
+#include "GameProgrammingPatterns/State/ReverseState.h"
 int
 main() {
   Player* player = new Player();
@@ -26,5 +29,23 @@ main() {
   player->Defend();
   player->Move();
   delete player;
+
+  Car* carro = new Car();
+  carro->Acelerar();
+  carro->Frenar();
+  std::cout << "El carro ahora avanza." << std::endl;
+  carro->SetState(new ForwardState());
+  carro->Acelerar();
+  carro->Frenar();
+  std::cout << "El carro ahora va en reversa." << std::endl;
+  carro->SetState(new ReverseState());
+  carro->Acelerar();
+  carro->Frenar();
+  std::cout << "El carro ahora esta estacionado." << std::endl;
+  carro->SetState(new ParkedState());
+  carro->Acelerar();
+  carro->Frenar();
+  delete carro;
+
   return 0;
 }
