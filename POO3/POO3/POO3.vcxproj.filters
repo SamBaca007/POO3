@@ -40,6 +40,12 @@
     <Filter Include="Archivos de encabezado\GameProgrammingPatterns">
       <UniqueIdentifier>{994f6520-e13f-472f-8b8d-bc4fedcbe347}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\GameProgrammingPatterns\Strategy">
+      <UniqueIdentifier>{599455ad-79b9-4905-ada0-ce00787f9a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameProgrammingPatterns\Facade">
+      <UniqueIdentifier>{586900f3-7ed4-45e1-adf7-92ad4d841537}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -172,6 +178,33 @@
     </ClInclude>
     <ClInclude Include="include\GameProgrammingPatterns\State\Car.h">
       <Filter>Archivos de encabezado\GameProgrammingPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Strategy\IAttackStrategy.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Strategy\RangedAttackStrategy.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Strategy\MeleeAttackStrategy.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Strategy\Player.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Strategy\MagicAttackStrategy.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Facade\AudioLoader.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Facade\AudioMixer.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Facade\AudioEffectsProcessor.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameProgrammingPatterns\Facade\AudioFacade.h">
+      <Filter>Archivos de encabezado\GameProgrammingPatterns\Facade</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
